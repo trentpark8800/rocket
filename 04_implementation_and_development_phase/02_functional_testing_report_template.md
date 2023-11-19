@@ -37,7 +37,7 @@ This report is intended for a broad range of stakeholders, including the develop
         - [ ] **Peer Programming:**
             - _Use Hassan style_: One person writes the test, another person implements the code
 - **Standards:**
-    - [ ] **File nameing conventions:**
+    - [ ] **File naming conventions:**
         > File names should be the higher level function name `test_{{function_name}}.py` allowing for multiple tests to be included in a single file.
         - Consider separating out:
             - Functions 
@@ -66,7 +66,7 @@ This report is intended for a broad range of stakeholders, including the develop
 | ...         | UT-[...]     | ...            | ...              | ...              | ...              | ...              | ...      | YYYY/MM/DD |
 
 - [ ] **Results:**
-    - Utilize Continuous Integration (CI) tools to automatically run unit tests and report results.
+    - Utilize Continuous Integration (CI) tools to automatically run unit tests and report results, a popular standard (and toolkit) for test reporting is [Junit](https://docs.pytest.org/en/7.1.x/how-to/output.html#creating-junitxml-format-files).
     - Monitor for high pass rates and address any failing tests promptly.
 - [ ] **Issues and Resolutions:**
     - Document any issues encountered during testing, including bugs in logic, performance issues, or integration problems, and track their resolution.
@@ -149,7 +149,7 @@ This report is intended for a broad range of stakeholders, including the develop
     - [ ] **Custom Scripts and Simulators:**
         - Develop scripts (e.g., in Python, Bash, or using cloud CLI tools) to automate the generation of test data and simulate operational loads.
     - [ ] **Data Generation Tools:**
-        - Use tools like Apache JMeter, TPC (Transaction Processing Performance Council) benchmarks, or custom data generators to create realistic test data and load scenarios.
+        - Use tools like Apache JMeter, TPC ([Transaction Processing Performance Council](https://www.tpc.org/tpce/default5.asp)) benchmarks, or custom data generators to create realistic test data and load scenarios.
     - [ ] **Integration with APIs:**
         - If your data pipeline interacts with external APIs, test these integrations under stress conditions using tools like Postman, Apache JMeter, or custom scripts.
 - **Steps for Integration Testing:**
